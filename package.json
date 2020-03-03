@@ -1,11 +1,11 @@
 {
-  "name": "mochaJs",
+  "name": "s",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "cover": "instanbul cover _mocha"
+    "cover":"istanbul cover node_modules/mocha/bin/_mocha test/"
   },
   "keywords": [],
   "author": "",

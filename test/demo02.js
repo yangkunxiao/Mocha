@@ -14,7 +14,7 @@ describe('objType.js',() => {
         });
         //error
         it('reg should return an object',() => {
-            should(lib.objType(1)).be.a.Object()
+            should(lib.objType({})).be.a.Object()
         })
     })
 })
